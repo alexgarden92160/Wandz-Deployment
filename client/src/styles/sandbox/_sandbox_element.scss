@@ -1,0 +1,12 @@
+.sandbox_element {
+    border: none;
+    background-color: transparent;
+}
+
+.sandbox_element:hover {
+    border-color: $flutter_default_blue;
+    border-width: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    cursor: pointer;
+}

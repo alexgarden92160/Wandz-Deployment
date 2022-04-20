@@ -1,0 +1,12 @@
+.selection_text {
+    height: 30px;
+    width: 140px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.selection_text:hover {
+    cursor: grab;
+}

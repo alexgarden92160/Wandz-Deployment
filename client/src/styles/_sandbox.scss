@@ -1,0 +1,15 @@
+.sandbox {
+    background-color: white;
+    height: 800px;
+    width: 450px;
+    border-style: solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@import "sandbox/sandbox_element";
+@import "sandbox/sandbox_button";
+@import "sandbox/sandbox_text";

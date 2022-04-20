@@ -1,0 +1,19 @@
+{
+    "": [
+        "Placeholder"
+    ],
+    "Button": [
+        "TextButton(",
+        "onPressed: () { $fun },",
+        "child: Text(\"$text\")",
+        ")"
+    ],
+    "Text": [
+        "Text(\"$text\")"
+    ],
+    "Image": [
+        "Image(",
+        "image: NetworkImage(\"$url\")",
+        ")"
+    ]
+}

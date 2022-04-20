@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  server:
+    build: ./server
+    image: wandz-server:latest
+    container_name: wandz-server    
+    restart: always
+    env_file:
+      - ./server/.env
+    ports:
+      - "3000:3000"
+
+  client:
+    build: ./client
+    image: wandz-client:latest
+    container_name: wandz-client
+    depends_on:
+      - server
+    restart: always
+    ports:
+      - "80:3000"

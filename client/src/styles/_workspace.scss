@@ -1,0 +1,12 @@
+.workspace {
+    background-color: rgb(36, 38, 58);
+    border-radius: 7px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+@import "./sandbox";
+@import "./selection";
+@import "./edit";
+@import "./console";

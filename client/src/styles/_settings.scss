@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+$font: "Poppins",
+sans-serif;
+$flutter_default_blue: #3474e0;
+
+* {
+    font-family: $font;
+}
+
+.header {
+    text-align: center;
+
+}
+
+.app {
+    background-color: rgb(28, 23, 44);
+}

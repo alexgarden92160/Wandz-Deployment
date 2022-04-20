@@ -1,0 +1,11 @@
+.selection {
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+}
+
+@import "selection/selection_element";
+@import "selection/selection_button";
+@import "selection/selection_text";
